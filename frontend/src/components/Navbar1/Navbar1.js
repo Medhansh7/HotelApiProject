@@ -49,7 +49,7 @@ export default class Navbar1 extends Component {
 	};
 
 	page = () => {
-		console.log("send some ");
+		console.log("send ");
 		this.setState({ toDashboard: true });
 		// return <Redirect exact to="/Rooms/" />;
 	};
@@ -102,43 +102,43 @@ export default class Navbar1 extends Component {
 											getSuggestionItemProps,
 											loading
 										}) => (
-											<div>
-												<input
-													{...getInputProps({
-														placeholder:
-															"Search Places",
-														className:
-															"location-search-input"
-													})}
-												/>
-												<div className="autocomplete-dropdown-container">
-													{loading && (
-														<div>Loading...</div>
-													)}
-													{suggestions.map(
-														suggestion => {
-															const className = suggestion.active
-																? "suggestion-item--active"
-																: "suggestion-item";
-															// inline style for demonstration purpose
-															const style = suggestion.active
-																? {
+												<div>
+													<input
+														{...getInputProps({
+															placeholder:
+																"Search Places",
+															className:
+																"location-search-input"
+														})}
+													/>
+													<div className="autocomplete-dropdown-container">
+														{loading && (
+															<div>Loading...</div>
+														)}
+														{suggestions.map(
+															suggestion => {
+																const className = suggestion.active
+																	? "suggestion-item--active"
+																	: "suggestion-item";
+																// inline style for demonstration purpose
+																const style = suggestion.active
+																	? {
 																		backgroundColor:
 																			"#fafafa",
 																		cursor:
 																			"pointer"
-																  }
-																: {
+																	}
+																	: {
 																		backgroundColor:
 																			"#ffffff",
 																		cursor:
 																			"pointer"
-																  };
-														}
-													)}
+																	};
+															}
+														)}
+													</div>
 												</div>
-											</div>
-										)}
+											)}
 									</PlacesAutocomplete>
 								</div>
 								<div className="input-field second-wrap">
