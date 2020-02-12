@@ -155,7 +155,7 @@ export default class Navbar1 extends Component {
 
 									<DatePicker
 										onChange={this.onStartChange}
-										placeholder="Checkin"
+										placeholder="Checkin Date"
 									/>
 								</div>
 								<div className="input-field second-wrap">
