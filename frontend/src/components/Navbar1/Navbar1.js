@@ -49,7 +49,7 @@ export default class Navbar1 extends Component {
 	};
 
 	page = () => {
-		console.log("send Data");
+		console.log("send ");
 		this.setState({ toDashboard: true });
 		// return <Redirect exact to="/Rooms/" />;
 	};
