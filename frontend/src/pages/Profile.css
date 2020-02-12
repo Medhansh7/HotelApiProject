@@ -1,0 +1,9 @@
+.ccontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.flewRow {
+    display: flex;
+    flex-direction: row;
+}

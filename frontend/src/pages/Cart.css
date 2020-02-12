@@ -1,0 +1,43 @@
+.CartSpacer {
+    height: 10vh;
+
+}
+
+.cartObject {
+    height: 20vh;
+    width: 80vw;
+}
+
+.cart-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    height: 30vh;
+    width: 80vw; 
+    margin:2rem;
+    padding: 2rem;
+    border: 1px solid black;
+
+}
+.cart-img-container img {
+    height: 25vh;
+    width: 25vh;
+    display: block;
+  
+    /* transition: var(--mainTransition); */
+  }
+
+
+.cartObjectName {
+    font-size: large;
+}
+
+.cartObjectData {
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.cartObjectPrice {
+    font-size: large;
+}

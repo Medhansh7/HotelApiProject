@@ -1,0 +1,310 @@
+.spacer {
+    height: 10vh;
+    background-color: #fcf4e8;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #fcf4e8;
+}
+
+/* .inputBox {
+    height: 4vw;
+    width: 30vw;
+    font-size: large;
+}
+
+.detailsform{
+    height: 60vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    box-shadow: 0px 0px 10px lightgrey;
+} */
+
+.remember {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    height: 4vw;
+
+}
+
+.align {
+    margin-right: auto;
+    
+}
+
+.signupContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+/* .signupButton {
+    height: 4vw;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+    background-color: #b78a62;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #ecbb90;
+} */
+
+.line {
+
+    top: 50%;
+    left: 0;
+    margin-top: -.5px;
+    width: 10vw;
+    border-top: 1px solid #dfa777;
+    content: "";
+
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.select {
+    height: 10vh;
+    /* background-color: beige; */
+    align-self: baseline;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+
+}
+
+/* .topLoginButton {
+    width: 17.5vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color:lightgray;
+    box-shadow: 5px -5px 8px inset lightgrey;
+
+}
+
+.topSignUpButton {
+    width: 17.5vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color:black;
+    background-color: white;
+
+} */
+
+.connectWith {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    
+}
+
+.icon{
+    height: 10vh;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .inputBox {
+        height: 4vw;
+        width: 30vw;
+        font-size: large;
+    }
+    
+    .detailsform{
+        height: 60vh;
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: white;
+        box-shadow: 0px 0px 10px lightgrey;
+    }
+
+    .signupButton {
+        height: 4vw;
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        text-align: center;
+        background-color: #b78a62;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px #ecbb90;
+    }
+
+    .topLoginButton {
+        width: 17.5vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color:lightgray;
+        box-shadow: 5px -5px 8px inset lightgrey;
+    
+    
+    
+    }
+    
+    .topSignUpButton {
+        width: 17.5vw;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color:black;
+    
+    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .detailsform{
+        height: 60vh;
+        width: 50vw !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: white;
+        box-shadow: 0px 0px 10px lightgrey;
+    }    
+
+    .inputBox {
+        height: 4vw;
+        width: 45vw !important;
+        font-size: large;
+    }
+
+    .signupButton {
+        height: 6vw;
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        text-align: center;
+        background-color: #b78a62;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px #ecbb90;
+    }
+
+    .topLoginButton {
+        width: 25vw !important;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color:lightgray;
+        box-shadow: 5px -5px 8px inset lightgrey;
+    
+    
+    }
+    
+    .topSignUpButton {
+        width: 25vw !important;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color:black;
+    
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .detailsform{
+        height: 60vh;
+        width: 80vw !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: white;
+        box-shadow: 0px 0px 10px lightgrey;
+    }    
+
+    .inputBox {
+        height: 8vw !important;
+        width: 75vw !important;
+        font-size: large;
+    }
+
+    .signupButton {
+        height: 10vw;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        text-align: center;
+        background-color: #b78a62;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px #ecbb90;
+    }
+
+    .topLoginButton {
+        width: 40vw !important;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color:lightgray;
+        box-shadow: 5px -5px 8px inset lightgrey;
+    
+    
+    }
+    
+    .topSignUpButton {
+        width: 40vw !important;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color:black;
+        /* box-shadow: -5px -5px 8px inset lightgrey; */
+    
+    
+    }
+}
